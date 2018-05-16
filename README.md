@@ -1,2 +1,3 @@
-# study2
+# study1
+
 python ders anlatımı
