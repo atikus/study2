@@ -1,5 +1,6 @@
 """
 slot örneği
+deneme 5
 """
 
 class feed(object):
