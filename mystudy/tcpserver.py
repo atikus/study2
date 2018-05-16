@@ -19,7 +19,7 @@ def Main():
         print("Connection from {}".format(addr))
         m_bytes = conn.recv(1024 * 1024)
 
-        with open("ccc.jpeg", "wb") as f:
+        with open("img/ccc.jpeg", "wb") as f:
             f.write(m_bytes)
 
 

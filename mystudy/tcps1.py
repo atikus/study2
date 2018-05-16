@@ -18,7 +18,7 @@ def Main():
     
     print(len(pic))
 
-    with open("c1.jpeg","wb") as f:
+    with open("img/c1.jpeg","wb") as f:
         f.write(pic)
     
 
