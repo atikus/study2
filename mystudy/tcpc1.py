@@ -7,7 +7,7 @@ def Main():
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.connect((host, port))
 
-    with open("cat.jpeg", "rb") as f:
+    with open("img/cat.jpeg", "rb") as f:
         data = f.read()
     
     s.send(data)

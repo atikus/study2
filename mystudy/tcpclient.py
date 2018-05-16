@@ -15,7 +15,7 @@ def Main():
         s.connect((host, port))
 
 
-        with open("cat.jpeg", "rb") as f:
+        with open("img/cat.jpeg", "rb") as f:
             filebytes = f.read()
 
         s.send(filebytes)
